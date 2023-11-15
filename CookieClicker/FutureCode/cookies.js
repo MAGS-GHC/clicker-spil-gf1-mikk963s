@@ -1,6 +1,6 @@
 clicks = 0;
 function Increment() {
-  clicks++;
+  clicks += upgrade;
   document.getElementById("Count").innerHTML = clicks;
   console.log(clicks);
 }
