@@ -5,12 +5,6 @@ autoclick = 0;
 
 function UpgradeEnhanceClick() {
 	if (clicks >= upgradePrice) {
-		if (upgrade === 1) {
-			clicks -= upgradePrice;
-			upgrade++;
-			upgradePrice *= 2;
-		}
-
 		clicks -= upgradePrice;
 		upgrade *= 2;
 		upgradePrice *= 2;
